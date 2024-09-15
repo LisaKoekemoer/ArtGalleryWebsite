@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ArtGalleryWebsite/static/css/main.98cc2af6.css",
+    "main.js": "/ArtGalleryWebsite/static/js/main.519916eb.js",
+    "static/js/453.e1c89c0d.chunk.js": "/ArtGalleryWebsite/static/js/453.e1c89c0d.chunk.js",
+    "static/media/image-map.png": "/ArtGalleryWebsite/static/media/image-map.469d7bd2e9c8b38da1b4.png",
+    "static/media/image-grid-1.jpg": "/ArtGalleryWebsite/static/media/image-grid-1.95864fd8122546c1bebb.jpg",
+    "static/media/image-grid-2.jpg": "/ArtGalleryWebsite/static/media/image-grid-2.975e1da7e18a8e764e91.jpg",
+    "static/media/image-hero.jpg": "/ArtGalleryWebsite/static/media/image-hero.9880f6d0f520f841ba10.jpg",
+    "static/media/image-grid-3.jpg": "/ArtGalleryWebsite/static/media/image-grid-3.9c7799d62f03e68bc619.jpg",
+    "static/media/logo-dark.svg": "/ArtGalleryWebsite/static/media/logo-dark.1cee720a4188b5bf7816947632415cbb.svg",
+    "static/media/logo-light.svg": "/ArtGalleryWebsite/static/media/logo-light.31a7aa1fa294df64df01f8466642b41f.svg",
+    "index.html": "/ArtGalleryWebsite/index.html",
+    "static/media/icon-arrow-left.svg": "/ArtGalleryWebsite/static/media/icon-arrow-left.c674d53cbd0fd283364905ea68a562a0.svg",
+    "static/media/icon-arrow-right.svg": "/ArtGalleryWebsite/static/media/icon-arrow-right.a24cfbb84a44181bc4a791c6d84327b3.svg",
+    "main.98cc2af6.css.map": "/ArtGalleryWebsite/static/css/main.98cc2af6.css.map",
+    "main.519916eb.js.map": "/ArtGalleryWebsite/static/js/main.519916eb.js.map",
+    "453.e1c89c0d.chunk.js.map": "/ArtGalleryWebsite/static/js/453.e1c89c0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98cc2af6.css",
+    "static/js/main.519916eb.js"
+  ]
+}
