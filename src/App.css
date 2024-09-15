@@ -1,38 +1,334 @@
-.App {
-  text-align: center;
-}
+@media screen and (max-width: 1440px) and (min-width: 481px) {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    /* HOMEPAGE */
+    body {
+        font-family: "Big Shoulders Display", sans-serif;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    header {
+        height: 800px;
+        display: flex; 
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    .logo-container {
+        width: 450px;
+        height: 799px;
+        background-color: #151515;
+        
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    .dark {
+        width: 183px;
+        height: 176px;
+        object-fit: cover;
+        object-position: 100%;
+        position: absolute;
+        left: 450px;
+        top: 160px;
+    }
+    
+    .logo-container .light {
+        width: 514px;
+        height: 176px;
+        margin-top: 160px;
+        margin-left: 130px;
+        
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .hero-img img {
+        width: 540px;
+        height: 800px;
+    }
+
+    .CTA {
+        margin-left: -65px;
+        margin-top: 150px;
+    }
+
+    .CTA p {
+        width: 350px;
+        font-family: "Outfit", sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #444444;
+        line-height: 30px;
+    }
+    
+    .btn-location{
+        width: 260px;
+        height: 72px;
+        border: none;
+        display: flex;
+        margin-top: 60px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .location,
+    .home {
+        width: 204px;
+        height: 72px;
+        background-color: #151515;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightArrow,
+    .leftArrow {
+        width: 56px;
+        height: 72px;
+        background-color: #D5966C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-location:hover .location {
+        background-color: #D5966C;
+    }
+
+    .btn-location:hover .rightArrow {
+        background-color: #151515;
+    }
+
+    .item1 {
+        grid-area: gallery;
+        margin-right: 95px;
+    }
+
+    .item1 h2 {
+        width: 350px;
+        font-size: 60px;
+        font-weight: 900;
+        color: #151515;
+    }
+
+    .item1 p {
+        width: 350px;
+        font-family: "Outfit", sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #444444;
+        margin-top: -20px;
+    }
+
+    .item2 {
+        grid-area: gridOne;
+    }
+
+    .item2 img {
+        width: 635px;
+        height: 400px;
+    }
+
+    .item3 {
+        grid-area: gridTwo;
+    }
+
+    .item3 img {
+        width: 635px;
+        height: 720px;
+    }
+
+    .item4 {
+        grid-area: gridThree;
+    }
+
+    .item4 img {
+        width: 445px;
+        height: 313px;
+    }
+
+    .item5 {
+        grid-area: inspire;
+        background-color: #151515;
+        width: 395px;
+        height: 370px;
+        padding-left: 50px;
+    }
+
+    .item5 h2 {
+        width: 350px;
+        font-size: 60px;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+    .item5 p {
+        width: 350px;
+        font-family: "Outfit", sans-serif;
+        font-size: 22px;
+        font-weight: 200;
+        color: #FFFFFF;
+        line-height: 30px;
+        margin-top: -10px;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-areas: 
+            'gallery gallery gridOne gridOne gridOne'
+            'gridTwo gridTwo gridTwo gridThree gridThree'
+            'gridTwo gridTwo gridTwo inspire inspire';
+        gap: 30px;
+        width: 1110px;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    footer {
+        height: 164px;
+        background-color: #151515;
+        margin-top: 150px;
+        padding-top: 80px;
+    }
+
+    .footer-content {
+        width: 1110px;
+        height: 84px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .footer-content img {
+        width: 159.57px;
+        height: 58px;
+    }
+
+    .footer-content p {
+        width: 430px;
+        font-family: "Outfit", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #FFFFFF;
+        margin-top: -5px;
+    }
+
+    .socials {
+        width: 100px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #myPath:hover {
+        fill: #D5966C;
+        cursor: pointer;
+    }
+
+    /* LOCATION PAGE */
+
+    .map {
+        height: 600px;
+        background-image: url('./images/desktop/image-map.png');
+    }
+
+    .btn-home {
+        width: 260px;
+        height: 72px;
+        border: none;
+        display: flex;
+        cursor: pointer;
+        margin-left: 150px;
+        text-decoration: none;
+    }
+
+    .ourLocation-container {
+        height: 548px;
+        background-color: #151515;
+    }
+
+    .ourLocation-content {
+        width: 1110px;
+        height: 266px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .ourLocation h1 {
+        width: 350px;
+        font-size: 70px;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+    .streetAddress {
+        font-size: 36px;
+        font-weight: 900;
+        color: #D5966C;
+    }
+
+    .suburb,
+    .locationInfo {
+        font-family: "Outfit", sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+
+    .locationInfo {
+        margin-top: 50px;
+        width: 540px;
+    }
+
+    .locationFooter {
+        background-color: #D5966C;
+        height: 244px;
+        margin-top: 0px;
+    }
+
+    .footer-container {
+        width: 1110px;
+        height: 84px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .footerLogoDark {
+        width: 159.57px;
+        height: 58px;
+    }
+
+    .footer-container p {
+        width: 430px;
+        font-family: "Outfit", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #151515;
+        margin-top: 5px;
+    }
+
+    .locationSocials {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        height: 20px;
+    }
+
+    #myLocation {
+        fill: #151515;
+        cursor: pointer;
+    }
+
+    #myLocation:hover {
+        fill: #FFFFFF;
+    }
+
+    .btn-home:hover .leftArrow {
+        background-color: #151515;
+    }
+
+    .btn-home:hover .home {
+        background-color: #D5966C;
+    }
+
 }
